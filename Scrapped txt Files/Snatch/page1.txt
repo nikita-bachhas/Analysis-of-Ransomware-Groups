@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News</title>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="../assets/css/reset.css" />
+<link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css" />
+<link rel="stylesheet" href="../assets/css/style.css" />
+<script src="../assets/js/jquery.min.js"></script></head>
+<body>
+<div class="wrapper">
+    
+<div id="UUID" class="mainModal">
+    <div class="modalUUID">
+        <a href="" title="Close" class="close">X</a>
+        <h2>ENTER UUID</h2>
+        <p>
+            To contact us, you must enter your personal UUID in the field below and press ENTER.
+            After logging in, you will receive detailed information about your company.
+        </p>
+        <form action="" method="post">
+            <input
+                    class="uuid-input"
+                    name="uuid"
+                    type="text"
+                    minlength="20"
+                    required
+                    placeholder="XXXX-XXXX-XXXX-XXXX"
+            />
+            <input type="hidden" name="uuid_redirect">
+            <input type="submit" value="ENTER" />
+        </form>
+        <p class="gotofb">
+            If you do not have UUID, please contact via the
+            <a href="#feedback">feedback</a> form
+        </p>
+    </div>
+</div>
+<div id="feedback" class="mainModal">
+    <div class="modalFeedback">
+        <a href="#close" title="Закрыть" class="close">X</a>
+        <h2>Feedback</h2>
+        <p>
+            If you are the owner of the company you can leave your contact details and you will be provided with a UUID to enter the chat. If you are a media outlet, leave your contacts and we will contact you very soon.
+        </p>
+        <form action="" method="post">
+            <input
+                    name="feedback-name"
+                    required
+                    autocomplete="on"
+                    id="1"
+                    type="text"
+                    placeholder="Your name"
+            />
+            <input
+                    id="2"
+                    required
+                    name="feedback-contacts"
+                    autocomplete="on"
+                    type="email"
+                    placeholder="Your email"
+            />
+            <textarea
+                    name="feedback-message"
+                    required
+                    id="3"
+                    cols="30"
+                    rows="4"
+                    minlength="20"
+                    placeholder="Your message"
+            ></textarea>
+            <img src="data:image/jpeg;base64,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" alt="Enable images to see captcha" width="200" height="60"/>
+            <input
+                    name="captcha"
+                    required
+                    id="captcha"
+                    type="text"
+                    placeholder="Complete captcha"
+            />
+            <input type="hidden" name="gc_value" value="$2y$10$Ux.NQCvxFRMMj/WYBKfXUuGur2ooRpuVHoQ4XOap1vGGjfL2HqRve">
+            <input type="hidden" name="feedback_form">
+            <input type="submit" value="SEND" />
+        </form>
+    </div>
+</div>
+<div id="public_notice" class="mainModal">
+    <div class="modalNotice">
+        <a href="" title="Close" class="close">X</a>
+        <h2>Public notice</h2>
+        <p>
+            Snatch do not work with lockers or ransomware.
+        </p>
+        <br>
+        <p>
+            1. Snatch never disrupt supply chains, work of any country, government, state, city and private companies by locking, encrypting or by any other mean.
+        </p>
+        <p>
+            2. Snatch always notifies about data leak.
+        </p>
+        <p>
+            3. Snatch always prioritizes negotiations with data owner.
+        </p>
+        <p>
+            4. Snatch targets and prioritise archiving agreement between us and the company.
+        </p>
+        <p>
+            5. Snatch do not disclose the vulnerability that helped us get the data to the third parties, except the company itself.
+        </p>
+        <p>
+            6. In case of receiving the payments from the company, Snatch sends a report about vulnerability that helped us get the data and consultancy on improving the defense layers. Also, Snatch deletes all data and puts company into the special list. Details of report depends on the final payment, but in any way upop reaching the agreements, the company gets report on vulnerability and entry point.
+        </p>
+        <p>
+            7. The list described before guarantees non-interference of Snatch into the further interaction with the hackers community and guarantees that Snatch will not accept, analyze, buy, sell or interact in any form with company data on the list.
+        </p>
+        <p>
+            8. Snatch respects it's buyers and do not publish purchased data.
+        </p>
+        <p>
+            9. Company data is selling in parts, rest of the data will be published.
+        </p>
+        <p>
+            10. In any scenario critical data of the company, that declined to negotiate with Snatch, will be published, except data purchased by any other member of the market.
+        </p>
+        <p>
+            11. Part of the critical data will not be selling, but will be Snatch exclusive data, that would be published according to the point '10'.
+        </p>
+        <p>
+            12. In the process of interaction with company, Snatch always notifies the government about data leak. This include tax departments, financial, cybersecurity and every authority in the company industry.
+        </p>
+        <p>
+            13. Snatch requires complete transparency about notification of data owners about data leak. If company started negotiations soon enough, warned about data leak and secured the rest of the company and affiliates data, the company can notify every affiliate and close the breach by themselves.
+        </p>
+        <p>
+            14. If company decides not to negotiate with Snatch, then in any scenario every company affiliate will be notified and presented the proofs of data breach.
+        </p>
+        <p>
+            15. Snatch does not notify the media about negotiation status and price of the deal. Negotiation process with company is strictly confidential.
+        </p>
+        <p>
+            16. Snatch open to the collaboration with companies, reporters, bloggers, enthusiasts and other people in cybersecurity. This also includes the people working in the same industry as the company listed on our site.
+        </p>
+        <p>
+            17. If someone is introducing themselves as negotiator from the Snatch or state they have a direct contact with Snatch, write to the Snatch only social media accounts or contact form on the site to verify the person.
+        </p>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="header-content">
+                <div class="header-start">
+                    <a href="#UUID">
+                        <span>Enter UUID</span>
+                    </a>
+                    <a href="#feedback">
+                        <span>Feedback</span>
+                    </a>
+                    <a href="#public_notice">
+                        <span>Public notice</span>
+                    </a>
+                </div>
+                <div class="header-end">
+                    <div class="header-socials">
+                        <a href="https://t.me/snatch_news">
+                            <img src="../assets/images/telegram.svg" alt="telegram" />
+                        </a>
+                    </div>
+                    <div class="header-buttons">
+                        <button class="b_tor" onclick="window.location.href='http://hl66646wtlp2naoqnhattngigjp5palgqmbwixepcjyq5i534acgqyad.onion/';">TOR</button>
+                        <button class="b_web" onclick="window.location.href='https://snatch.press/';">WEB</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>    <main>
+        <div class="container">
+            <div class="row">
+                <div class="sub-header">
+                    <div class="sh-start">
+                        <a href="index.php"><img src="./assets/images/logo.png" alt="Logo" /></a>
+                    </div>
+                    <div class="sh-midle">
+                        <nav class="sh-midle-nav">
+                            <ul>
+                                <li class="sh-m-l"><a href="index.php?filter=new">New company</a></li><li class="sh-m-l"><a href="index.php?filter=full">Full data</a></li><li class="sh-m-l"><a href="index.php?filter=archive">Archive</a></li>                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sh-end">
+                        <form class="news-search" method="post">
+                            <input
+                                    class="news-search_input"
+                                    type="text"
+                                    placeholder="Search for company..."
+                                    name="search"
+                            />
+                            <button class="news-search_button" type="submit">
+                                <img src="./assets/images/n-search.svg" alt="" />
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div id="information_block">
+                    <div class="two-col-grid">
+                        <div class="grid-item">
+                            <div id='info_block'><p><p><strong> Attention!</strong><br></p><ul><strong>All negotiations are conducted in the chat of our service.</strong></ul><ul><strong>All other attempts to negotiate on our behalf, with the exception of initial calls to companies, are fraudulent. </strong></ul><ul><strong>If you pay fraudsters, we do not accept any responsibility for their actions and will not comply with the terms of the contracts concluded by you.</p></div>                        </div>
+                        <div class="grid-item">
+                            <div id="info_block">
+                                <p>Due to the huge number of the published information downloads we're moving project to the paid subscription mode.</p>
+                                <p>At the moment, donations are welcome.</p>
+                                <br>
+                                <p>Ethereum: 0xe39ebbdaaba3fd298dbc07f2b5517e4363ac7a79</p>
+                                <p>Bitcoin: bc1qspsnhtwl3yjavghrkes362jvfeuay6a206hhcn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-main-content"><div class="m-c-main">
+<div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Sep 7, 2022 11:45 PM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">68150</p></div></div><div class="a-b-name"><div class="a-b-n-name">Stratford University</div></div><div class="a-b-text">Stratford University offers Associates, Bachelors, and Masters degrees in business administration; computer science and information technology; hospitality and culinary arts; health sciences; and nursing.</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=03bb719d-0d58-47a8-bd42-6afb989d3e2d'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Sep 2, 2022 02:11 AM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">129958</p></div></div><div class="a-b-name"><div class="a-b-n-name">The Execu|Search Group</div></div><div class="a-b-text">With 250+ employees across the U.S., we offer direct hire recruiting, contract and staff augmentation, and workforce solutions for companies of all sizes. Our healthcare, technology, pharmaceutical, and professional services teams are each led by recruiters who are truly specialized in their respective fields.</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=b390ba72-b5c2-4d85-b364-dc7848c70dd1'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Sep 2, 2022 01:54 AM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">167408</p></div></div><div class="a-b-name"><div class="a-b-n-name">Lootah Group</div></div><div class="a-b-text">Formed at the heart of UAE in 1973 by the vision of Mr. Ibrahim Saeed Ahmed Lootah who hails from a Founding Family in Dubai, Lootah Group has consistently grown to become an international corporation with a strong world-wide presence. A 47-year old global conglomerate,</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=9ba38919-a593-4ee9-81e8-7bf9a53fa054'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Jul 29, 2022 02:24 AM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">265606</p></div></div><div class="a-b-name"><div class="a-b-n-name">LAVA</div></div><div class="a-b-text">Lava International Limited is a leading Mobile Handset Company in India and has expanded its operations to multiple countries across the world. Right from its inception Lava has been at the forefront of building a strong ecosystem of design and manufacturing of mobile handsets. The</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=d2b5d947-8032-44af-a86b-f33633fbc97f'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Jul 26, 2022 10:41 PM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">161861</p></div></div><div class="a-b-name"><div class="a-b-n-name">Hall Cross Academy</div></div><div class="a-b-text">Hall Cross is an historic institution which is proud of its traditions but what motivates us every day is securing the best future for every one of the young people we serve.
+A large and vibrant comprehensive academy with nearly 2000 students on roll including approximately</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=6c79956b-7ff3-4cff-ad2f-ac1ef173e1ad'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-time">Jul 20, 2022 11:35 PM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">127787</p></div></div><div class="a-b-name"><div class="a-b-n-name">Atlantic Dialysis Management Services</div><span class="a-b-n-tag">Data Added: 812 MB</span></div><div class="a-b-text">Atlantic Dialysis Management Services, LLC (“ADMS”) was established to provide new dialysis site development, day to day administration and management of dialysis services and related business development activities.  The business strategy is to maximize individual site results through consolidated activities.  Central to the</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=169756e2-850e-4258-a966-1820b24cbbd6'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-time">Jun 30, 2022 11:19 PM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">193414</p></div></div><div class="a-b-name"><div class="a-b-n-name">HEMERIA</div><span class="a-b-n-tag">Data Added: 411 MB</span></div><div class="a-b-text">At HEMERIA, we design and manufacture high-dependability, high-tech equipment and systems for the very exacting requirements of the space industry and France’s nuclear deterrence force.</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=9d4b8b2f-1233-4d2d-82f9-674c11105f3b'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-time">Jun 29, 2022 11:10 PM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">126473</p></div></div><div class="a-b-name"><div class="a-b-n-name">Apex</div></div><div class="a-b-text">Established in April 1975, we started the design model business for home appliances. Since our founding, we have worked on many design and working models in many industries such as home appliances, office automation equipment, automobile parts, medical equipment, and amusement equipment as a company</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=e5bc554e-2e85-4cc8-87ce-da1e3a9a5a2d'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Jun 23, 2022 01:46 AM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">196307</p></div></div><div class="a-b-name"><div class="a-b-n-name">Warren Resources</div></div><div class="a-b-text">Warren Resources’ properties include high-quality, low-decline conventional oil and natural gas assets in the core of the Wilmington Field, in L.A. County, CA. Our value-driven strategy focuses on continuously generating capital efficiencies and operation with low production and G&amp;A costs, with a disciplined approach to</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=2a9cf102-c4f6-4d89-a9cd-7df82634293f'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div><div class="ann-block"><div class="a-b-head"><div class="a-b-h-typedata">Full Data</div><div class="a-b-h-time">Jun 23, 2022 01:43 AM</div><div class="a-b-h-views-count d-flex"><img src="./assets/images/views-count.svg" alt="" /><p class="a-b-h-v-c-views">248303</p></div></div><div class="a-b-name"><div class="a-b-n-name">Xtera</div><span class="a-b-n-tag">Data Added: 48 GB</span></div><div class="a-b-text">Xtera deliver submarine cable solutions that maximise optical capacity and capability from seabed to city through outstanding expertise, know-how and technology innovation that is underpinned by leading-edge research and development.</div><div class="a-b-bottom"><div class="a-b-b-tags"></div><div class="a-b-b-readmore"><a href="#" class="a-b-b-r-link"><button class="a-b-b-r-l-button" onclick="window.location='news.php?id=e0c20ae2-bb84-4ea2-8f4a-fd0a9fcc3533'"><p class="a-b-b-r-l-b-text">Read more</p><img class="a-b-b-r-l-b-img" src="./assets/images/readmore-arrow.svg" alt="arrow"/></button></a></div></div></div></div>
+<div class="m-c-aside">
+    <div class="m-c-aside-1">
+        <h2 class="aside-head">New Company</h2>
+            </div>
+    <div class="m-c-aside-2">
+        <h2 class="aside-head">Full Data</h2>
+        <div class="aside-card"><a href="news.php?id=03bb719d-0d58-47a8-bd42-6afb989d3e2d"><div class="aside-card-content"><h3 class="a-c-c-h3">Stratford University</h3><h4 class="a-c-c-h4">Stratford University offers Associates, Bachelors, and Masters degrees in business administration;...</h4></div></a></div><div class="aside-card"><a href="news.php?id=b390ba72-b5c2-4d85-b364-dc7848c70dd1"><div class="aside-card-content"><h3 class="a-c-c-h3">The Execu|Search Group</h3><h4 class="a-c-c-h4">With 250+ employees across the U.S., we offer direct hire recruiting,...</h4></div></a></div><div class="aside-card"><a href="news.php?id=9ba38919-a593-4ee9-81e8-7bf9a53fa054"><div class="aside-card-content"><h3 class="a-c-c-h3">Lootah Group</h3><h4 class="a-c-c-h4">Formed at the heart of UAE in 1973 by the vision...</h4></div></a></div><div class="aside-card"><a href="news.php?id=d2b5d947-8032-44af-a86b-f33633fbc97f"><div class="aside-card-content"><h3 class="a-c-c-h3">LAVA</h3><h4 class="a-c-c-h4">Lava International Limited is a leading Mobile Handset Company in India...</h4></div></a></div><div class="aside-card"><a href="news.php?id=6c79956b-7ff3-4cff-ad2f-ac1ef173e1ad"><div class="aside-card-content"><h3 class="a-c-c-h3">Hall Cross Academy</h3><h4 class="a-c-c-h4">Hall Cross is an historic institution which is proud of its...</h4></div></a></div>    </div>
+</div></div><div class="main-nav">
+    <div class="main-nav-nav">
+        <a class="m-n-n-link link-unactive"><p class="m-n-n-l-text">Previous page</p></a>        <div class="main-nav-numbers">
+        <a class="m-n-n-number number-active">1</a><a class="m-n-n-number" href="index.php?page=2">2</a><a class="m-n-n-number" href="index.php?page=3">3</a><a class="m-n-n-number" href="index.php?page=4">4</a>        </div>
+        <a class="m-n-n-link" href="index.php?page=2"><p class="m-n-n-l-text">Next page</p></a>    </div>
+</div>            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="header-content">
+                    <div class="header-start">
+                        <a href="#UUID">
+                            <span>Enter UUID</span>
+                        </a>
+                        <a href="#feedback">
+                            <span>Feedback</span>
+                        </a>
+                    </div>
+                    <div class="header-end">
+                        <div class="header-socials">
+                            <a href="https://t.me/snatch_news">
+                                <img src="./assets/images/telegram.svg" alt="telegram" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    $("body").on("input", ".uuid-input", function () {
+        this.value = this.value.toUpperCase();
+    });
+</script>
+<script>
+    let banner_div = document.getElementById("banner_place");
+    if ((window.location.pathname !== "/index.php" && window.location.pathname !== "/") || window.location.search !== "") {
+        banner_div.style.display = "none";
+    } else {
+        if (banner_div.innerText !== "")
+        {
+            document.getElementsByClassName("m-main-content")[0].style.marginTop = "3rem"
+        }
+    }
+</script>
+</body>
+</html>

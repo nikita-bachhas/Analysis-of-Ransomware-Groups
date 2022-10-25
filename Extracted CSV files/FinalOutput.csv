@@ -1,0 +1,51 @@
+,Company Targeted,Publish Date,Attacker,Industry,Latitude,Longitude,Location of Attack,Leak Size (In MB),Data Type - Databases,Data Type - Applications,Data Type - Emails,Data Type - Source Code,Data Type - Business Information,Data Type - Designs,Data Type - Financial Information,Data Type - Research Information,Data Type - Employee Information,Data Type - Customer Information,Data Type - Company Information,Data Type - Backup Systems Information,Data Type - Supply Systems Information,Data Type - Business Deals Information,Data Type - Manufacturing Information,Country
+0,Instituto Agrario Dominicano,1/9/22,Quantum Ransomware,GovernmentAgency,18.42259415,-70.11518925,"Instituto Agrario Dominicano, Avenida Constitución, Los Molina, San Cristóbal, 91000, República Dominicana",1100000,1,1,1,,,,,,,,,,,,,República Dominicana
+1,Shaw & Slavsky,19/8/22,Quantum Ransomware,Supermarket,42.37064975,-83.1802752,"11298, Decatur Street, Paveway, Detroit, Wayne County, Michigan, 48227, United States",6000,,,,,,,,,,,,,,,1,United States
+2,BEESENSE,4/8/22,Quantum Ransomware,Security,32.6602,35.1046,"איזור תעשייה, HaCarmel St 2, Yokne'am Illit, 2069207, Israel",13000000,,,1,1,1,1,1,1,1,,,,,1,,ישראל
+3,Broshuis | Driving innovation,18/7/22,Quantum Ransomware,Motor/Vehicular,52.5674,5.895,"Industrieweg 22, 8263 AD Kampen, Netherlands",117000,,,,,,,1,,1,1,,,,,,Nederland
+4,ZEUS Scientific,29/6/22,Quantum Ransomware,Medical,40.5868,74.6986,"200 Evans Way, Branchburg, NJ 08876, United States",540000,1,,,,1,1,1,1,1,,1,1,,1,,Кыргызстан
+5,Shred Station,14/6/22,Quantum Ransomware,Security,39.9527752,-75.1580261,"Jefferson Station, Filbert Street, Chinatown, Center City, Philadelphia, Philadelphia County, Pennsylvania, 19107, United States",47000,,,,,,,1,,1,1,,,,,,United States
+6,Florida Department of Veterans' Affairs,27/5/22,Quantum Ransomware,GovernmentAgency,27.6648,81.5158,Florida - Several Locations,11000000,,,,,1,,1,,1,,,,1,1,,India
+7,Valley Rentals,29/4/22,Quantum Ransomware,RealEstate,49.02713555,-122.3791244,"1317, Tower Street, Abbotsford, Fraser Valley Regional District, British Columbia, V2T 6H5, Canada",120000,,,,,1,,1,,1,1,,,,1,,Canada
+8,Drive Products,29/4/22,Quantum Ransomware,Motor/Vehicular,43.8173485,-79.25806459,"Drive Products, 55, Nashdene Road, Milliken, Scarborough, Toronto, Golden Horseshoe, Ontario, M1V 0C1, Canada",500000,,,,,,,,,1,,,,,,,Canada
+9,Tehama County Social Services,28/4/22,Quantum Ransomware,GovernmentAgency,40.0982,122.1746,"Tehama County, CA - Several Locations",32000,,1,,,1,,1,,1,1,,,,1,,中国
+10,Camden City School District,20/4/22,Quantum Ransomware,School,51.539,0.1426,Camden,200000,,,,,,,,,,,,,,,,United Kingdom
+11,JetStar,11/4/22,Quantum Ransomware,Airline,21.0265279,105.8499999,"Jetstar, Phố Tràng Thi, Phường Hàng Trống, Quận Hoàn Kiếm, Thành phố Hà Nội, 11415, Việt Nam",43000,,,,,,,1,,1,1,,,,,,Việt Nam
+12,InfoTek Consulting Services,28/2/22,Quantum Ransomware,ConsultingServices,43.6705791,-79.3939111,"135 Yorkville Ave #700, Toronto, ON M5R 0C7, Canada",11000,,,,,1,,1,,1,1,,,,1,,Canada
+13,Maple Lodge Farms,31/1/22,Quantum Ransomware,Agriculture,43.6151159,-79.80473798,"Winston Churchill Boulevard, Halton Hills, Halton Region, Golden Horseshoe, Ontario, L5N 8P7, Canada",300000,,,,,1,1,1,,1,,1,,,1,1,Canada
+14,Fundo Nacional de Desenvolvimento da Educação,3/9/22,RansomEXX Ransomware,School,-15.8008805,-47.88337841,"Fundo Nacional de Desenvolvimento da Educação, SBS Quadra 02, Setor Bancário Sul, Brasília, Plano Piloto, Região Geográfica Imediata do Distrito Federal, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, Região Geográfica Intermediária do Distrito Federal, Distrito Federal, Região Centro-Oeste, 70070-120, Brasil",6214000,,,,,,,,,,,,,,,,Brasil
+15,Bombardier Recreational Products (BRP) - BONUS CONTENT (!!!),24/8/22,RansomEXX Ransomware,Motor/Vehicular,60.0529433,30.3920382,"BRP Центр СЕВЕР, 41, проспект Культуры, округ Северный, Санкт-Петербург, Северо-Западный федеральный округ, 195276, Россия",26000,,,,,,,,,,,,,,,,Россия
+16,Bombardier Recreational Products (BRP),23/8/22,RansomEXX Ransomware,Motor/Vehicular,60.0529433,30.3920382,"BRP Центр СЕВЕР, 41, проспект Культуры, округ Северный, Санкт-Петербург, Северо-Западный федеральный округ, 195276, Россия",2929000,,,,,,,,,,,,,,,,Россия
+17,Sonae,5/4/22,RansomEXX Ransomware,Food,35.4011755,134.5196048,"養父小代線, 備, 香美町, 美方郡, 兵庫県, 日本",27000,,,,,,,,,,,,,,,,日本
+18,Stago,29/3/22,RansomEXX Ransomware,Technology,49.0270264,2.1899365,"Diagnostica Stago, 23;25;27;29, Rue Constantin Pecqueur, Taverny, Argenteuil, Val-d'Oise, Île-de-France, France métropolitaine, 95150, France",423,,,,,,,,,,,,,,,,France
+19,Scottish Association for Mental Health,20/3/22,RansomEXX Ransomware,NonProfitOrganisation,56.4907,4.2026,Scotland - Several Locations,1251000,,,,,,,,,,,,,,,,Scotland
+20,Viva Air,14/3/22,RansomEXX Ransomware,Airline,45.6910497,4.9471276,"Viva, Rue du 8 Mai 1945, Bel Air I, Plaine de Saythe / Bel Air, Saint-Priest, Lyon, Métropole de Lyon, Circonscription départementale du Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69800, France",1825000,,,,,,,,,,,,,,,,France
+21,POP TV,15/2/22,RansomEXX Ransomware,Multimedia,46.06942875,14.52227676,"Pop TV, 26, Kranjčeva ulica, Bežigrad, Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija",24000,,,,,,,,,,,,,,,,Slovenija
+22,KCA Deutag,28/1/22,RansomEXX Ransomware,Drilling,57.07907025,-2.123730642,"KCA Deutag, Bankhead Drive, City South Business Park, Hillside, Portlethen, Aberdeenshire, Alba / Scotland, AB12 4XX, United Kingdom",36297000,,,,,,,,,,,,,,,,United Kingdom
+23,Etron,1/6/22,Cuba Ransomware,Technology,24.78395314,121.0047218,"114, Taiwan, Neihu District, Lane 35, Jihu Rd, 22號2 樓與10樓",-,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,臺灣
+24,R1group,22/6/22,Cuba Ransomware,ConsultingServices,41.89958113,12.40941017,"Via Monte Carmelo, 5, 00166 Roma RM, Italy",-,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,Italia
+25,Site-technology,19/7/22,Cuba Ransomware,Technology,24.49278984,54.36194961,Hamdan Bin Mohammed St - Zone 1 - E3-02 - Abu Dhabi - United Arab Emirates,-,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,الإمارات العربية المتحدة
+26,Skupstina,19/8/22,Cuba Ransomware,GovernmentAgency,42.43997976,19.2603868,"10 Bulevar Svetog Petra Cetinjskog, Podgorica 81000, Montenegro",-,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,Crna Gora / Црна Гора
+27,Stm.com.tw,4/7/22,Cuba Ransomware,Technology,22.83429003,120.309738,"No. 301, Tandi Rd, Gangshan District, Kaohsiung City, Taiwan 820",-,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,臺灣
+28,Laddawn Inc.,7/9/22,Lorenz,Manufacturer,42.54161919,-71.61386704,"155 Jackson Rd, Devens, MA 01434, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+29,Northern Contours Inc.,21/7/22,Lorenz,Manufacturer,44.88072458,-93.15876035,"1355 Mendota Heights Rd STE 100, Mendota Heights, MN 55120, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+30,Engine Power,20/7/22,Lorenz,Motor/Vehicular,43.07448159,-88.47594949,"1830 Executive Dr, Oconomowoc, WI 53066, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+31,Fandeli,10/7/22,Lorenz,Manufacturer,19.52009166,-99.2076886,"Av Presidente Juárez 225, San Jerónimo Tepetlacalco, 54090 Tlalnepantla de Baz, Méx., Mexico",600000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,México
+32,Gresco,5/7/22,Lorenz,Utility,32.98792128,-83.84894919,"1135 Rumble Rd, Forsyth, GA 31029, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+33,Biothane usa,3/7/22,Lorenz,Manufacturer,41.41826767,-82.00286843,"34655 Mills Rd, North Ridgeville, OH 44039, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+34,Uppco,23/6/22,Lorenz,Utility,46.53912372,-87.4188581,"1002 Harbor Hills Dr, Marquette, MI 49855, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+35,"Wis-Pak, Inc",16/6/22,Lorenz,DrinkManufacturer,43.19024255,-88.74828597,"860 West St, Watertown, WI 53094, United States",250000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+36,Bonneville Collections,2/6/22,Lorenz,Finance,41.15376729,-111.936429,"6026 Fashion Point Dr, Ogden, UT 84403, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+37,Westwood,31/5/22,Lorenz,Technology,44.89705748,-93.4416232,"12701 Whitewater Dr, Minnetonka, MN 55343, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+38,Fuji America Corporation,30/5/22,Lorenz,Manufacturer,42.21310377,-87.95029492,"171 Corporate Woods Pkwy, Vernon Hills, IL 60061, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+39, Magtek,19/5/22,Lorenz,Manufacturer,33.75736322,-118.0904932,"1710 Apollo Ct, Seal Beach, CA 90740, USA",150000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+40,AmCham Shanghai,16/5/22,Lorenz,NonProfitOrganisation,31.22093668,121.47804,"China, Shang Hai Shi, Huangpu, 168, Hubin Rd, 168号26-27层无极限大厦 邮政编码: 200021",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,中国
+41, Brunk Industries Inc.,25/4/22,Lorenz,Manufacturer,42.60380001,-88.43114992,"1225 Sage St, Lake Geneva, WI 53147, United States",300000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+42, Tosoh Corporation,19/4/22,Lorenz,Manufacturer,35.65240082,139.7474206,"MP2W+XX Minato City, Tokyo, Japan",250000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,日本
+43, Musco Sports Lighting,14/4/22,Lorenz,Manufacturer,41.29425201,-92.64742045,"100 1st Ave W, Oskaloosa, IA 52577, USA",220000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+44,Simply Placed,13/4/22,Lorenz,ConsultingServices,47.53952137,-122.0222675,"904 7th Ave NE, Issaquah, WA 98029, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+45, DeeZee ,12/4/22,Lorenz,Motor/Vehicular,41.6645695,-93.59506322,"1572 NE 58th Ave, Des Moines, IA 50313, United States",150000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+46,Advizrs,11/4/22,Lorenz,Finance,41.23152998,-96.19024469,"17605 Wright St, Omaha, NE 68130, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+47, Ward Hadaway ,29/3/22,Lorenz,Legal,53.79544491,-1.554440086,"5 Wellington Pl, Leeds LS1 4AP, UK",180000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United Kingdom
+48, VadaTech ,8/3/22,Lorenz,Technology,36.04113336,-115.0287017,"198 N Gibson Rd, Henderson, NV 89014, USA",220000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,United States
+49, Hensoldt ,2/3/22,Lorenz,Technology,48.04744358,11.6574654,"Willy-Messerschmitt-Straße 3, 82024 Taufkirchen, Germany",200000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Deutschland

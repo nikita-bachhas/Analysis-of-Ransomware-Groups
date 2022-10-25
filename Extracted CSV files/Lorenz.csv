@@ -1,0 +1,23 @@
+Count,Company Targeted,Publish Date,Attacker,Industry,Latitude,Longitude,Location of Attack,Leak Size (In MB),Data Type - Databases,Data Type - Applications,Data Type - Emails,Data Type - Source Code,Data Type - Business Information,Data Type - Designs,Data Type - Financial Information,Data Type - Research Information,Data Type - Employee Information,Data Type - Customer Information,Data Type - Company Information,Data Type - Backup Systems Information,Data Type - Supply Systems Information,Data Type - Business Deals Information,Data Type - Manufacturing Information
+1,Laddawn Inc.,2022-09-07,Lorenz,Manufacturer,42.54161918889784,-71.61386704423393,"155 Jackson Rd, Devens, MA 01434, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,Northern Contours Inc.,2022-07-21,Lorenz,Manufacturer,44.880724575935645,-93.15876034762489,"1355 Mendota Heights Rd STE 100, Mendota Heights, MN 55120, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Engine Power,2022-07-20,Lorenz,Motor/Vehicular,43.07448158655449,-88.47594948816479,"1830 Executive Dr, Oconomowoc, WI 53066, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Fandeli,2022-07-10,Lorenz,Manufacturer,19.520091662457197,-99.20768860247206,"Av Presidente Juárez 225, San Jerónimo Tepetlacalco, 54090 Tlalnepantla de Baz, Méx., Mexico",600000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Gresco,2022-07-05,Lorenz,Utility,32.987921278484485,-83.848949188697,"1135 Rumble Rd, Forsyth, GA 31029, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Biothane usa,2022-07-03,Lorenz,Manufacturer,41.4182676703754,-82.00286843077973,"34655 Mills Rd, North Ridgeville, OH 44039, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,Uppco,2022-06-23,Lorenz,Utility,46.53912371891505,-87.4188581017728,"1002 Harbor Hills Dr, Marquette, MI 49855, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,"Wis-Pak, Inc",2022-06-16,Lorenz,DrinkManufacturer,43.19024254585053,-88.74828597304938,"860 West St, Watertown, WI 53094, United States",250000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Bonneville Collections,2022-06-02,Lorenz,Finance,41.15376728681359,-111.93642903264526,"6026 Fashion Point Dr, Ogden, UT 84403, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Westwood,2022-05-31,Lorenz,Technology,44.89705747909835,-93.44162320182917,"12701 Whitewater Dr, Minnetonka, MN 55343, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,Fuji America Corporation,2022-05-30,Lorenz,Manufacturer,42.21310377184401,-87.9502949154079,"171 Corporate Woods Pkwy, Vernon Hills, IL 60061, United States",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12, Magtek,2022-05-19,Lorenz,Manufacturer,33.757363220558865,-118.09049317333026,"1710 Apollo Ct, Seal Beach, CA 90740, USA",150000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,AmCham Shanghai,2022-05-16,Lorenz,NonProfitOrganisation,31.220936681601646,121.47803999776778,"China, Shang Hai Shi, Huangpu, 168, Hubin Rd, 168号26-27层无极限大厦 邮政编码: 200021",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14, Brunk Industries Inc.,2022-04-25,Lorenz,Manufacturer,42.60380001255043,-88.43114991713333,"1225 Sage St, Lake Geneva, WI 53147, United States",300000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15, Tosoh Corporation,2022-04-19,Lorenz,Manufacturer,35.65240082352616,139.7474205514249,"MP2W+XX Minato City, Tokyo, Japan",250000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16, Musco Sports Lighting,2022-04-14,Lorenz,Manufacturer,41.294252012976756,-92.64742044633074,"100 1st Ave W, Oskaloosa, IA 52577, USA",220000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,Simply Placed,2022-04-13,Lorenz,ConsultingServices,47.53952136703897,-122.02226752924953,"904 7th Ave NE, Issaquah, WA 98029, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18, DeeZee ,2022-04-12,Lorenz,Motor/Vehicular,41.66456950016151,-93.59506322459227,"1572 NE 58th Ave, Des Moines, IA 50313, United States",150000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Advizrs,2022-04-11,Lorenz,Finance,41.23152997571209,-96.19024468867458,"17605 Wright St, Omaha, NE 68130, USA",-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20, Ward Hadaway ,2022-03-29,Lorenz,Legal,53.79544490567843,-1.554440086159583,"5 Wellington Pl, Leeds LS1 4AP, UK",180000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21, VadaTech ,2022-03-08,Lorenz,Technology,36.04113335539345,-115.02870167326768,"198 N Gibson Rd, Henderson, NV 89014, USA",220000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22, Hensoldt ,2022-03-02,Lorenz,Technology,48.04744357921632,11.657465398280277,"Willy-Messerschmitt-Straße 3, 82024 Taufkirchen, Germany",200000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
