@@ -3,7 +3,7 @@ Accessed dark web and carried out website scraping and data extraction
 
 ## Functionality
 1. We first accessed the dark web using Tor browser to scrape ransomware shaming websites to extract data
-2. Then, the scrapped txt files are cleaned and processed using beautifulsoup to obtain relevant data
+2. The scrapped txt files were then cleaned and processed using beautifulsoup to obtain relevant data
 3. We then used tableau for data visualisation and analysis
 
 ## Documentation 
